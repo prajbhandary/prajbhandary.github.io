@@ -4,45 +4,160 @@
         <meta charset ="UTF-8">
         <title>Basic Portfolio</title>
         <!-- css and other additional files will go here-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
     <body background ="assets/images/gravel.png">
-        <header class="left1 right1">
-
-                <h1 class ="header-font">Pranab</h1>
-
-                <div style="float:right">
-                        <ul>
-                            <li> <a href="index.html"> About</a></li>
-                            <li><a href="Portfolio.html">Portfolio</a></li>
-                            <li><a href="Contact.html">Contact</a></li>
-                        </ul>
-                </div>
-
+        <header> <!-- nav bar with search bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Pranab Rajbhandary</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="Portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="Contact.html">Contact</a>
+                      </div>
+                    </div>
+                  </nav>
         </header>
+        <div class = "container">
+                <div class="row">
+                    <div class= "col-md-10">
+                        <div class="row">
+                                <div class = "col-md-2"></div>
+                            <h2 class="col-md-10 main">Portfolio</h2>
+                        </div>
+                        <div class ="row">
+                            <div class = "col-md-2"></div>
+                            
+                            <div class ="col-md-10 main">
+                                    <div class="page-split"></div>
+                                
+                                <div class = "row"> <!-- first row -->
+                                    <div class = "col-md-4">
+                                            <img  src="assets/images/stars.jpg" alt ="My Picture">
+                                            <div class="comment">
+                                                    Stars
+                                            </div>
+                                        </div>
+
+                                    <div class = "col-md-4">
+                                            <img src="assets/images/butterfly.jpg" alt ="My Picture">
+                                            <div class="comment">
+                                                    Butterfly
+                                            </div>
+                                        </div>
+                                    <div class = "col-md-4">
+
+                                        </div>
+                                </div>
+
+                                <div class = "row"> <!-- second row -->
+                                    <div class = "col-md-4">
+                                            <img  src="assets/images/solar-eclipse.jpg" alt ="My Picture">
+                                            <div class="comment">
+                                                    Solar Eclipse
+                                                    </div>
+                                        </div>
+
+                                    <div class = "col-md-4">
+                                            <img src="assets/images/moon.jpg" alt ="My Picture">
+                                            <div class="comment">
+                                                    Full Moon
+                                                </div>
+                                        </div>
+                                    <div class = "col-md-4">
+
+                                        </div>
+                                </div>
+
+                                <div class = "row"> <!-- Third row -->
+                                    <div class = "col-md-4">
+                                            <img  src="assets/images/fireworks.jpg" alt ="My Picture">
+                                            <div class="comment">
+                                                    Fireworks
+                                            </div>
+                                        </div>
+
+                                    <div class = "col-md-4">
+
+                                        </div>
+                                    <div class = "col-md-4">
+
+                                        </div>
+                                </div>
+
+
+                            
+                            </div>
+                         </div>
+                    </div>
+                    <div class ="col-md-2">
+                        <br/>
+                        
+                            
+                    </div>
+                </div>
+        
+            </div>
+                
+        <!-- 
         <div class="page-split-header"></div>
         <div class =  "wrapper">
             <div class = "main">
-            <h2 class ="header-font">Portfolio</h2>
-            <div class="page-split"></div>
-                <div>   
-                    <img src="assets/images/solar-eclipse.jpg" alt ="My Picture">
-                    <img src="assets/images/moon.jpg" alt ="My Picture">
-                </div> 
-                <div>
-                    <img src="assets/images/stars.jpg" alt ="My Picture"> 
-                    <img src="assets/images/fireworks.jpg" alt ="My Picture">
-                </div>
-                <div>
-                    <img src="assets/images/butterfly.jpg" alt ="My Picture"> 
+                <h2 class ="header-font">Portfolio</h2>
+                <div class="page-split"></div>
+                <div class="pic-container">
+                    <div class="pic-container-div">   
+                        <div class = "final-touch">
+                            <img  src="assets/images/solar-eclipse.jpg" alt ="My Picture">
+                            <div class="comment">
+                            Solar Eclipse
+                            </div>
+                        </div>
+                        <div class= "final1-touch">
+                            <img src="assets/images/moon.jpg" alt ="My Picture">
+                            <div class="comment">
+                                Full Moon
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="pic-container-div">   
+                        <div class = "final-touch">
+                            <img  src="assets/images/stars.jpg" alt ="My Picture">
+                            <div class="comment">
+                                    Stars
+                            </div>
+                        </div>
+                        <div class= "final1-touch">
+                            <img src="assets/images/butterfly.jpg" alt ="My Picture">
+                            <div class="comment">
+                                Butterfly
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="pic-container-div">   
+                            <div class = "final-touch">
+                                <img  src="assets/images/fireworks.jpg" alt ="My Picture">
+                                <div class="comment">
+                                July 4th
+                                </div>
+                            </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         
         <div id="footer">
                 <p>Copyright ©</p>
-             </div>
+         </div>
 
 
 

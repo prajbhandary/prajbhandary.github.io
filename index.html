@@ -4,43 +4,63 @@
         <meta charset ="UTF-8">
         <title>Basic Portfolio</title>
         <!-- css and other additional files will go here-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
     <body background ="assets/images/gravel.png">
-        <header class="left1 right1">
-
-                <h1 class ="header-font">Pranab</h1>
-
-                <div style="float:right">
-                        <ul>
-                            <li> <a href="index.html"> About</a></li>
-                            <li><a href="Portfolio.html">Portfolio</a></li>
-                            <li><a href="Contact.html">Contact</a></li>
-                        </ul>
-                </div>
-
+        <header> <!-- nav bar with search bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Pranab Rajbhandary</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="Portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="Contact.html">Contact</a>
+                      </div>
+                    </div>
+                  </nav>
         </header>
-        <div class="page-split-header"></div>
-        <div class =  "wrapper">
-            <div class = "main">
-            <h2 class ="header-font">Portfolio</h2>
-            <div class="page-split"></div>
-           
-                <img class ="index-page" src="assets/images/main.jpg" alt ="My Picture">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis enim id sapien euismod venenatis. Nullam eleifend nunc ut ligula rhoncus fermentum. Praesent feugiat nec turpis et fringilla. Nulla pretium lacus tortor, efficitur condimentum dolor interdum et. Vivamus in nunc massa. Proin a tellus mauris. Nulla luctus volutpat commodo. Nulla ornare posuere tristique. Aliquam eros urna, faucibus a aliquet et, auctor non nibh. Aenean non suscipit nulla, non commodo quam. Vestibulum euismod elit purus, ut luctus mauris placerat sed. Nunc aliquet feugiat dictum. Maecenas gravida egestas quam, sed commodo magna consequat nec. </p>
-              <!--  <p>Nunc ornare metus id lacus ornare convallis. Nulla vel nunc mollis sem venenatis euismod at eu lacus. Proin hendrerit dui eget suscipit ultrices. Cras aliquam consequat ligula nec hendrerit. Aenean sodales nisl eget sem vestibulum ultricies. Donec vel enim a erat feugiat ullamcorper sit amet in metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla condimentum, metus a scelerisque maximus, augue ante cursus diam, et imperdiet turpis urna euismod purus. In id nunc elit. Aenean posuere vestibulum ultrices. Nullam ex neque, vestibulum at lorem ac, dignissim blandit est. Ut vulputate elit metus, ac pharetra ex lacinia non. Suspendisse porttitor suscipit purus, sit amet semper nisi sollicitudin eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p> -->
-           
-        </div>
+        
+       <div class = "container">
+            <div class="row">
+                <div class= "col-md-10">
+                    <div class="row">
+                            <div class = "col-md-2"></div>
+                        <h2 class="col-md-10 main">About ME</h2>
+                    </div>
+                    <div class ="row">
+                        <div class = "col-md-2"></div>
+                        
+                        <div class ="col-md-10 main">
+                                <div class="page-split"></div>
+            
+                            <img class ="index-page" src="assets/images/main.jpg" alt ="My Picture">
+
+                                <p>Hello! </p>
+                                <p> I am Pranab Rajbhandary. My current residence at St. Louis Park, Mn. I have been working as a integrator at Open Access Technolgy for the past 5 years. I recieved my bachelors degree from St. Cloud State University and  masters Degree from University of St. Thomas. </p>
+                                <p> I have a passion of soccer and I am an avid fan of spanish soccer team "Real Madrid". Recently, I have been enjoying exploring diffent national parks during my vacations. Few national parks that I have been in the past 2 years are Yellowstone National Park (NP), Glacier NP, Death Vally NP, Rocky Mountains NP, Grand Canyon NP.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class ="col-md-2">
+                    <br/>
+                    
+                        
+                </div>
+            </div>
+
         </div>
         
         <div id="footer">
                 <p>Copyright ©</p>
-             </div>
-
-
+        </div>
 
     </body>
-
-
+    
 </Html>
