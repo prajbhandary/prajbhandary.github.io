@@ -44,6 +44,7 @@ img{
   width: 200px;
   height: 200px;
   padding-bottom: 4px;
+  margin-bottom: 5px;
 }
 
 .comment {
@@ -73,3 +74,37 @@ input.button{
   background-color: #4aaaa5;
   width: 20%
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-linkedin {
+  background: #1e2946;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #1e2946;
+  color: white;
+}
+
+.fa-github {
+  background: #1e2946;
+}
+
+
+.comment:hover, .comment:active 
+{font-size: 150%;}
