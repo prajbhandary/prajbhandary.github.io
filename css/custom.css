@@ -1,0 +1,9 @@
+/* your styles go here */
+ul {
+    list-style-position: outside;
+  }
+
+
+  .card{
+    background: #535252;
+  }

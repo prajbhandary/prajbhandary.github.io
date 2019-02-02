@@ -1,67 +1,320 @@
 <!DOCTYPE html>
-<html lang="eng-us">
-    <head>
-        <meta charset ="UTF-8" name="viewport" content="width=device-width">
-        <title>Basic Portfolio</title>
-        <!-- css and other additional files will go here-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pranab Rajbhandary</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="https://fontmeme.com/permalink/190130/076c690579244e7ea421adf7dd737496.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- intro end-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container"><a href="#intro" class="navbar-brand link-scroll"><img src="https://fontmeme.com/permalink/190130/c398417d8ddd6e8e34b28976705b3b49.png" alt="" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">Home </a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link link-scroll">Portfolio</a></li>
+              <li class="nav-item"><a href="#resume" class="nav-link link-scroll">Resume</a></li>
+              <!-- <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li> -->
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- about-->
+    <section id="about" class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+         <!--   <h2 class="heading">About me</h2> -->
+            <!-- <p class="lead">Hello!</p> -->
+            <p> I am Pranab Rajbhandary. My current residence is St. Louis Park, Mn. I have been working as a integrator at Open Access Technolgy for the past 5 years. I recieved my bachelors degree from St. Cloud State University and  masters Degree from University of St. Thomas. </p>
+            <p> I have a passion of soccer and I am an avid fan of spanish soccer team "Real Madrid". Recently, I have been enjoying exploring diffent national parks during my vacations. Few national parks that I have been in the past 2 years are Yellowstone National Park (NP), Glacier NP, Death Vally NP, Rocky Mountains NP, Grand Canyon NP.</p>          </div>
+          <div class="col-lg-5 mx-auto">
+            <p><img src="img/portfolio-main.jpg" alt="" class="img-fluid rounded-circle"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end-->
+    
+    
+    <!-- Portfolio / gallery-->
+    <section id="portfolio" class="gallery"style="background-color: #eee">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <h2 class="heading">Portfolio</h2>
+                <!-- <p>My few example projects</p> -->
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="https://prajbhandary.github.io/NinjaSquirrels/" target="_blank" title= "Music Finder" class="has-border"><img src="img/music.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="https://prajbhandary.github.io/trivia/"  target="_blank" title="World Capital Trivia Game" class="has-border"><img src="img/trivia.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/bamazon.gif"  data-lightbox="image-1" title="bamazon App" class="has-border"><img src="img/bamazon.gif" alt="image" class="img-fluid"></a></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="https://prajbhandary.github.io/Word-Guess-Game/" target="_blank" title="Guess The Country" class="has-border"><img src="img/fireworks.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="https://prajbhandary.github.io/unit-4-game/" target="_blank"  title="Beer Game" class="has-border"><img src="img/beerGame.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="https://evening-island-51384.herokuapp.com/"  target="_blank" title="Friend Finder" class="has-border"><img src="img/Friend_Finder.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="https://aqueous-reef-17353.herokuapp.com/" title="Where my Dough Go?" class="has-border"><img src="img/dough.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+              <!--  <div class="box"><a href="img/portfolio-8.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-8.jpg" alt="image" class="img-fluid"></a></div> -->
+              </div>
+              <div class="col-md-4">
+               <!-- <div class="box"><a href="img/portfolio-9.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-9.jpg" alt="image" class="img-fluid"></a></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio / gallery end-->
+    <!-- text page-->
+    <section id="resume" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Resume</h2>
+            <p>Five years of progressive experience as a System Analyst. Graduate in Software Engineering. Goal-oriented, versatile, dedicated professional with the ability to solve problems and embrace new challenges.</p></br>
+            <!-- <div class="row">
+              <div class="col-md-4">
+                  <div class="row">
+                    <h3>Education</h3>  
+                    <p>Masters in Software Engineering</br> University of St. Thomas (UST) - 2016</p>
+                    <p>Bachelor of Science: Information Systems</br> St Cloud State University (SCSU) - 2013</p>
+                  </div>
+                  <div class="row">
+                    <h3>TECHINICAL PROFICIENCIES</h3>
+                    <p>▪ MS SQL ▪ TFS ▪ GIT ▪ JIRA ▪ Java ▪ IOT ▪ Cold Fusion ▪ HTML/CSS ▪ REST ▪ JavaScript ▪ Linux</p>
+                  </div>
 
-    <body background ="gravel.png">
-        <header> <!-- nav bar with search bar-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">Pranab Rajbhandary</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                      <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                        <a class="nav-item nav-link" href="resume.html">Resume</a>
+              </div>
+              <div class="col-md-8">
+                  <h3>EXPERIENCE</h3> 
+              <h5> OATI - Technolgy Analyst (Team Lead)</h5>
+              <ul>
+                <li>Configuring new product and systems on Dev, QA and Prod environment</li>
+                <li>Execute/ write SQL scripts, database queries, and procedures. </li>
+                <li>Monitor and analyze system performance and identify root cause of defects</li>
+                <li>Act as a liaison between clients and development teams</li>
+                <li>Trained and mentored junior developers/integrators </li>
+                <li>Worked closely with Project Managers and developers to deliver enhancements and redesign systems</li>
+                <li>Involved in more than five different real time systems across multiple teams</li>
+                <li>Actively organized and facilitated team meetings to maintain and improve system performances</li>
+              </ul>   
+              </div>
+            </div> -->
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <h3>Education</h3> 
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <p>Masters in Software Engineering ▪ University of St. Thomas (UST) - 2016</p>
+                        <p>Bachelor of Science: Information Systems  ▪ St Cloud State University (SCSU) - 2013</p>
+                         </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <h3>TECHINICAL PROFICIENCIES</h3>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                    <center><p>▪ MS SQL ▪ TFS ▪ GIT ▪ JIRA ▪ Java ▪ IOT ▪ Cold Fusion ▪ HTML/CSS ▪ REST ▪ JavaScript ▪ Linux</p></center>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h3>EXPERIENCE</h3> 
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <h5> OATI - Technolgy Analyst (Team Lead)</h5>
+                        <ul>
+                          <li>Configuring new product and systems on Dev, QA and Prod environment</li>
+                          <li>Execute/ write SQL scripts, database queries, and procedures. </li>
+                          <li>Monitor and analyze system performance and identify root cause of defects</li>
+                          <li>Act as a liaison between clients and development teams</li>
+                          <li>Trained and mentored junior developers/integrators </li>
+                          <li>Worked closely with Project Managers and developers to deliver enhancements and redesign systems</li>
+                          <li>Involved in more than five different real time systems across multiple teams</li>
+                          <li>Actively organized and facilitated team meetings to maintain and improve system performances</li>
+                        </ul> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- text page end-->
+
+    <!-- Services-->
+    <!-- <section id="services" >
+        <div class="container">
+          <div class="row services">
+            <div class="col-lg-12">
+              <h2 class="heading">Services</h2>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="box">
+                    <div class="icon"><i class="fa fa-desktop"></i></div>
+                    <h4>Webdesign</h4>
+                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="box">
+                    <div class="icon"><i class="fa fa-print"></i></div>
+                    <h4>Print</h4>
+                    <p>Advantage old had otherwise sincerity dependent additions. It in adapted natural.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="box">
+                    <div class="icon"><i class="fa fa-globe"></i></div>
+                    <h4>SEO and SEM</h4>
+                    <p>Am terminated it excellence invitation projection as. She graceful shy. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Services end-->
+    <!-- contact-->
+    <section id="contact" style="background-color: #eee;" class="text-page"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Contact</h2>
+            <div class="row">
+                <div class="col-lg-3"></div>
+              <div class="col-lg-6">
+                <form id="contact-form" method="post" action="#" class="contact-form">
+                  <div class="controls">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="name">Your firstname *</label>
+                          <input type="text" name="name" placeholder="Enter your firstname" required="required" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="surname">Your lastname *</label>
+                          <input type="text" name="surname" placeholder="Enter your  lastname" required="required" class="form-control">
+                        </div>
                       </div>
                     </div>
-                  </nav>
-        </header>
-        
-       <div class = "container">
-            <div class="row">
-                <div class= "col-md-10">
-                    <div class="row">
-                            <div class = "col-md-2"></div>
-                        <h2 class="col-md-10 main">About ME</h2>
+                    <div class="form-group">
+                      <label for="surname">Your email *</label>
+                      <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control">
                     </div>
-                    <div class ="row">
-                        <div class = "col-md-2"></div>
-                        
-                        <div class ="col-md-10 main">
-                                <div class="page-split"></div>
-            
-                            <img class ="index-page" src="Main.jpg" alt ="My Picture">
-
-                                <p>Hello! </p>
-                                <p> I am Pranab Rajbhandary. My current residence at St. Louis Park, Mn. I have been working as a integrator at Open Access Technolgy for the past 5 years. I recieved my bachelors degree from St. Cloud State University and  masters Degree from University of St. Thomas. </p>
-                                <p> I have a passion of soccer and I am an avid fan of spanish soccer team "Real Madrid". Recently, I have been enjoying exploring diffent national parks during my vacations. Few national parks that I have been in the past 2 years are Yellowstone National Park (NP), Glacier NP, Death Vally NP, Rocky Mountains NP, Grand Canyon NP.</p>
-                        </div>
+                    <div class="form-group">
+                      <label for="surname">Your message for us *</label>
+                      <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
                     </div>
-                </div>
-                <div class ="col-md-2">
-                    <br/>
-                    
-                        
-                </div>
+                    <div class="text-center">
+                      <input type="submit" name="name" value="Send message" class="btn btn-outline-primary btn-block">
+                    </div>
+                    <div>
+                        <p class="social"></i></a><a href="https://github.com/prajbhandary" target="_blank" title="GitHub" class="github"><i class="fa fa-github"></i></a><a href="https://www.instagram.com/prajbhandary/" target="_blank" title="Instagram" class="instagram"><i class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/prajbhandary/" target="_blank" title="LinkedIn" class="linkedin"><i class="fa fa-linkedin"></i></a><a href="mailto:prajbhandary@yahoo.com" target="_blank" title="em@il" class="email"><i class="fa fa-envelope"></i></a></p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-3"></div>
+              <!-- <div class="col-lg-6">   
+                <center><p>Links to my LinkedIn, Github & Instagram! </p></center>
+                <p class="social"></i></a><a href="https://github.com/prajbhandary" target="_blank" title="GitHub" class="github"><i class="fa fa-github"></i></a><a href="https://www.instagram.com/prajbhandary/" target="_blank" title="Instagram" class="instagram"><i class="fa fa-instagram"></i></a><a href="https://www.linkedin.com/in/prajbhandary/" target="_blank" title="LinkedIn" class="linkedin"><i class="fa fa-linkedin"></i></a><a href="mailto:prajbhandary@yahoo.com" target="_blank" title="em@il" class="email"><i class="fa fa-envelope"></i></a></p>
+              </div> -->
             </div>
-
+          </div>
         </div>
-        
-        <div id="footer">
-                <p>Copyright ©</p>
+      </div>
+    </section>
+    <footer style="background-color: #111;">
+      <div class="container"> 
+        <div class="row copyright">
+          <div class="col-md-6">
+            <p class="mb-md-0 text-center text-md-left">&copy;2019  Pranab Rajbhandary</p>
+          </div>
+          <div class="col-md-6">
+            <p class="credit mb-md-0 text-center text-md-right">Inspiration From <a href="http://bootstrapious.com/landing-pages">Bootstrapious &mdash; Bootstrap Landing Pages</a></p>
+            <!-- Please do not remove the backlink to us. It is part of the licence conditions. Thanks for understanding :)-->
+          </div>
         </div>
-
-    </body>
-    
-</Html>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;amp;sensor=false"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
